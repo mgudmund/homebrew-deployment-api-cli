@@ -3,6 +3,7 @@ require "formula"
 class DeploymentApiCli < Formula
   desc "CLI for deployment metrics api"
   homepage "https://github.com/mgudmund/deployment-api-cli"
+  # check the OS
   if OS.mac?
     url "https://github.com/mgudmund/deployment-api-cli/releases/download/v1.0-alpha/deployment-api-cli-v1.0-alpha.macosx.tar.gz"
     sha256 "be23db7d812ff00a0896c5a791d0b476ad00910dcc5772fbc4924215621f5ba1"
