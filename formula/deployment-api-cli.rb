@@ -1,6 +1,6 @@
 require "formula"
 
-class Fed < Formula
+class DeploymentApiCli < Formula
   desc "CLI for deployment metrics api"
   homepage "https://github.com/mgudmund/deployment-api-cli"
   url "https://github.com/mgudmund/deployment-api-cli/releases/download/v1.0-alpha/deployment-api-cli-v1.0-alpha.macosx.tar.gz"
